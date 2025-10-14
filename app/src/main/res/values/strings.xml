@@ -10,4 +10,5 @@
     </string>
     <string name="btn_projetos">Projetos</string>
     <string name="btn_contato">Contato</string>
+    <string name="description_perfilUsuario">Foto de perfil do usuário</string>
 </resources>
