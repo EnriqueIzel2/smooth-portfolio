@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmoothPortfolio">
         <activity
+            android:name=".ProjetoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContatoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
