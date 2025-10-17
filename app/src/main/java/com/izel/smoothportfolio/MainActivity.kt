@@ -1,5 +1,6 @@
 package com.izel.smoothportfolio
 
+import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -21,5 +22,15 @@ class MainActivity : AppCompatActivity() {
         val circulo = RoundedBitmapDrawableFactory.create(resources, fotoPerfil)
         circulo.isCircular = true
         binding.imgFotoPerfil.setImageDrawable(circulo)
+
+        binding.btnProjetos.setOnClickListener {
+            val intent = Intent(this, ProjetoActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnContato.setOnClickListener {
+            val intent = Intent(this, ContatoActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
