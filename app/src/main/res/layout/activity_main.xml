@@ -14,8 +14,8 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:src="@drawable/foto_perfil"
-        android:contentDescription="@string/description_perfilUsuario"/>
+        android:contentDescription="@string/description_perfilUsuario"
+        android:src="@drawable/foto_perfil" />
 
     <TextView
         android:layout_width="match_parent"
@@ -29,7 +29,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:background="@drawable/border_scroll">
 
         <TextView
             android:layout_width="match_parent"
