@@ -13,10 +13,12 @@
         android:theme="@style/Theme.SmoothPortfolio">
         <activity
             android:name=".ProjetoActivity"
+            android:theme="@style/Theme.TelaDeProjetos"
             android:exported="false" />
         <activity
             android:name=".ContatoActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.TelaDeContato" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
