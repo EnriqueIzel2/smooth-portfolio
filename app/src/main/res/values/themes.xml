@@ -3,6 +3,16 @@
     <style name="Base.Theme.SmoothPortfolio" parent="Theme.Material3.DayNight.NoActionBar">
        <item name="android:statusBarColor">@color/blue</item>
     </style>
+    
+    <style name="TelaDeContato" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/dark_green</item>
+    </style>
+
+    <style name="TelaDeProjetos" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
 
     <style name="Theme.SmoothPortfolio" parent="Base.Theme.SmoothPortfolio" />
+    <style name="Theme.TelaDeContato" parent="TelaDeContato" />
+    <style name="Theme.TelaDeProjetos" parent="TelaDeProjetos" />
 </resources>
