@@ -24,4 +24,6 @@
     <string name="btn_projetos">Projetos</string>
     <string name="btn_contato">Contato</string>
     <string name="description_perfilUsuario">Foto de perfil do usuário</string>
+    <string name="toolbar_contato">Contato</string>
+    <string name="toolbar_projetos">Projetos</string>
 </resources>
