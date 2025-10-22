@@ -26,4 +26,8 @@
     <string name="description_perfilUsuario">Foto de perfil do usuário</string>
     <string name="toolbar_contato">Contato</string>
     <string name="toolbar_projetos">Projetos</string>
+    <string name="description_ic_celular">Icone de telefone</string>
+    <string name="txt_celular">+55 92 99395-9291</string>
+    <string name="description_ic_email">Ícone de email</string>
+    <string name="txt_email">eleaoizel@gmail.com</string>
 </resources>
