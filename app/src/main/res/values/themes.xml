@@ -6,6 +6,7 @@
     
     <style name="TelaDeContato" parent="Theme.MaterialComponents.NoActionBar">
         <item name="android:statusBarColor">@color/dark_green</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="TelaDeProjetos" parent="Theme.MaterialComponents.NoActionBar">
