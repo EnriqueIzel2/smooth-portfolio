@@ -19,4 +19,53 @@
         app:navigationIcon="@drawable/ic_arrow_back"
         app:title="@string/toolbar_contato"
         app:titleTextColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/ic_celular"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/description_ic_celular"
+        android:src="@drawable/ic_phone_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_contato" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/txt_celular"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_celular"
+        app:layout_constraintStart_toEndOf="@id/ic_celular"
+        app:layout_constraintTop_toTopOf="@+id/ic_celular" />
+
+    <ImageView
+        android:id="@+id/ic_email"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/description_ic_email"
+        android:src="@drawable/ic_alternate_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ic_celular" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/txt_email"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_email"
+        app:layout_constraintStart_toEndOf="@id/ic_email"
+        app:layout_constraintTop_toTopOf="@+id/ic_email" />
+
+    <ImageView
+        android:id="@+id/btn_whatsapp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_whatsapp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
