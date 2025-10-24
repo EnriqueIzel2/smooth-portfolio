@@ -30,4 +30,8 @@
     <string name="txt_celular">+55 92 99395-9291</string>
     <string name="description_ic_email">Ícone de email</string>
     <string name="txt_email">eleaoizel@gmail.com</string>
+    <string name="txt_projeto1">Projeto Barbearia</string>
+    <string name="txt_detalhes_do_projeto">Detalhes do Projeto</string>
+    <string name="txt_projeto2">Projeto Pizzaria</string>
+    <string name="txt_projeto3">Projeto Marcenaria</string>
 </resources>
