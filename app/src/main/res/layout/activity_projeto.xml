@@ -12,11 +12,122 @@
         android:id="@+id/toolbar_projeto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/dark_green"
+        android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/ic_arrow_back"
         app:title="@string/toolbar_projetos"
         app:titleTextColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/img_projeto1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/projeto_barbearia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_projeto" />
+
+    <TextView
+        android:id="@+id/txt_projeto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_projeto1"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/img_projeto1"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_projeto" />
+
+    <Button
+        android:id="@+id/btn_projeto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/txt_detalhes_do_projeto"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="32dp"
+        app:layout_constraintStart_toEndOf="@id/img_projeto1"
+        app:layout_constraintTop_toBottomOf="@id/txt_projeto1" />
+
+    <ImageView
+        android:id="@+id/img_projeto2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/projeto_pizzaria"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_projeto1" />
+
+    <TextView
+        android:id="@+id/txt_projeto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_projeto2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/img_projeto2"
+        app:layout_constraintTop_toBottomOf="@id/img_projeto1" />
+
+    <Button
+        android:id="@+id/btn_projeto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/txt_detalhes_do_projeto"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="32dp"
+        app:layout_constraintStart_toEndOf="@id/img_projeto2"
+        app:layout_constraintTop_toBottomOf="@id/txt_projeto2" />
+
+    <ImageView
+        android:id="@+id/img_projeto3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/projeto_marcenaria"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_projeto2" />
+
+    <TextView
+        android:id="@+id/txt_projeto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_projeto3"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/img_projeto3"
+        app:layout_constraintTop_toBottomOf="@id/img_projeto2" />
+
+    <Button
+        android:id="@+id/btn_projeto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/txt_detalhes_do_projeto"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="32dp"
+        app:layout_constraintStart_toEndOf="@id/img_projeto3"
+        app:layout_constraintTop_toBottomOf="@id/txt_projeto3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
